@@ -1,0 +1,46 @@
+:root {
+    --c1: #f1f1f1;
+    --c2: #101010;
+    --g1: linear-gradient(90deg, #0A62D9 0%, #6800ca 35%, #e00b0b 70%, #f0b800 100%);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Syne', sans-serif;
+}
+
+/* Features Globals */
+body {
+    background-color: var(--c1);
+}
+
+a {
+    color: var(--c2);
+    text-decoration: none;
+}
+
+.title {
+    font-size: 60px;
+    font-weight: 800;
+}
+/* Features */
+
+header {
+    padding: 12px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul.list-hd {
+    display: flex;
+    justify-content: space-between;
+}
+
+ul.cont-hd {
+    display: flex;
+    gap: 16px;
+}
